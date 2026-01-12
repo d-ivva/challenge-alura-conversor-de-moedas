@@ -1,0 +1,11 @@
+/target/
+*.class
+
+.vscode/
+.settings/
+.classpath
+.project
+*.launch
+
+config.properties
+src/main/resources/config.properties
