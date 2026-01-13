@@ -31,7 +31,7 @@ public class App {
 
             String moedaOrigem = leituraMoeda("Insira a sigla da moeda que deseja converter: ");
             String novaMoeda = leituraMoeda("Insira a sigla da nova moeda para qual será convertida: ");
-            double valorParaConverter = lerValor("Insira o valor para concluir a conversão: ");
+            double valorParaConverter = leituraValor("Insira o valor para concluir a conversão: ");
 
             String endereco = urlBase + apiKey + "/pair/" + moedaOrigem + "/" + novaMoeda;
 
@@ -79,7 +79,7 @@ public class App {
         }
     }
 
-    private static double lerValor(String mensagem) {
+    private static double leituraValor(String mensagem) {
         while (true) {
             System.out.print("\n" + mensagem);
             String texto = entrada.nextLine().trim().replace(",", ".");
@@ -106,5 +106,4 @@ public class App {
         entrada.close();
         System.exit(0);
     }
-    
 }
