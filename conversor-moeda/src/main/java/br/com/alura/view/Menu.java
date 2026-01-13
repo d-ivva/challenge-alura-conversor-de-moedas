@@ -35,6 +35,8 @@ public class Menu {
             System.out.println("Moeda Alvo: " + responseMoeda.target_code());
             System.out.println("Cotação: " + responseMoeda.conversion_rate());
 
-            System.out.println("O valor resultante após conversão é de " + resultado);
+            System.out.println(String.format("""
+                O valor resultante após conversão é de %.2f %s.
+                """, resultado, responseMoeda.target_code()));
     }
 }
