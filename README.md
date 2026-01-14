@@ -47,7 +47,7 @@ Passo a Passo
 1. Clone o repositório
 
   
-  git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+  git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/d-ivva/challenge-alura-conversor-de-moedas)
 
   
   cd conversor-moeda
